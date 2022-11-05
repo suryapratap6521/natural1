@@ -1,0 +1,233 @@
+.body{
+    background-color:white;
+}
+
+
+.list{
+     display: flex; 
+    justify-content: center;
+    padding: 4px;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: large;
+} 
+
+.But {
+    transition-duration: 200ms;
+    color: #ffffff;
+}
+
+.But:hover {
+    transition-duration: 200ms;
+    color: #29d9d5;;
+}
+
+.images{
+    
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    border: 2px solid black;
+    display:flex;
+    justify-content:left ;
+}
+
+li{
+    list-style-type: none;
+    margin:5px;
+    text-decoration: none;
+}
+
+.header{
+        background: rgb(36, 13, 13);
+
+}
+.logoimg{
+    color: white;
+}
+.blog{
+    background-color:pink ;
+    display: flex;
+    flex-direction:column;
+    width: 1100px;
+    margin-left:35px;
+    height:100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+.h31{
+    color:blue;
+    margin-left:15px;
+
+}
+.lorem{
+    color:black;
+    margin-left:15px;
+    margin-bottom: 10px;
+    text-indent: left;
+
+}
+.boxcontainer1{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+
+
+}
+.box1{
+    
+    width: 300px;
+    height: 250px;
+    margin:8px;
+    border-radius: 5px;
+    /* background: white;
+     */
+}
+.image1{
+    border-radius: 5px;
+    width:300px;
+    height:250px;
+    
+    
+    
+    
+
+}
+.boxcontainer{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+
+
+}
+.box{
+    
+    width: 300px;
+    height: 250px;
+    margin:8px;
+    border-radius: 5px;
+    /* background: white;
+     */
+}
+.image1{
+    border-radius: 5px;
+    width:300px;
+    height:250px;
+    
+    
+    
+    
+
+}
+.allimg{
+    display:flex;
+    flex-direction :column;
+}
+.image1:hover{
+    color: white;
+    opacity: 40px;
+}
+.btn2:hover{
+    background-color: green;
+    color:black;
+}
+.btn2{
+    display: block;
+    border: 1rem;
+    border-style: solid;
+    padding: 1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-color: green;
+    color: green;
+    width: 5rem;
+    border-radius: 2rem;
+    border-width: 0.2rem;
+    margin-right: 0;
+}
+.photographer{
+    background-color:rgb(235, 186, 193) ;
+    display: flex;
+    flex-direction:column;
+    width: 500px;
+    margin:auto;
+    height:200px;
+    border-radius: 5px;
+    margin-top: 3rem;
+    justify-content: center;
+
+}
+.head{
+    color:blue;
+    margin-left:15px;
+    font-size: 2rem;
+
+}
+.text{
+    color:black;
+    margin-left:15px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.start{
+    background-image: url("sky1.jpg");
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 22rem;
+}
+h4{
+
+    text-align: center;
+    color:green;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+h1{
+
+    text-align: center;
+    color:white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+    color:white;
+    font-size: 1rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color:white;
+    height:300px;
+}
+footer div{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+footer button{
+    height:40px;
+    margin:30px 0px;
+    border-radius: 20px;
+    width:150px;
+    font-size:20px;
+    color:green;
+    border:4px solid green;
+}
+footer input{
+    height:40px;
+    margin:30px 0px;
+border-radius: 20px;
+    width:250px;
+    font-size:20px;
+    color:green;
+    border:4px solid green;
+}
